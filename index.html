@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/beb055627f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ENTREPRENEUR & TEAM LEADER</p>
+                <h1>I AM <span>SALONGO</span><br> ISAAC SENYONJO</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2025-09-11 at 12.33.02.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                  
+                    <p>Isaac Sseonyonjo is a reverted Muslim from a Protestant family of five. He was born on 15/10/1988 at Mengo Hospital and is the third child of Nabukenya Mary and the late Ssekayombya Dickson. He is Munyoro by tribe from Kakumiro District (Bugangazi County). His elder brother, Oscar Peter Mbabali (aka Diamond Oscar), is a Ugandan artist. His elder sister Angella Nakyeyune and younger sister Sharon Nazziwa live in the UAE; his youngest sibling Abel Muyanja died in 2016. He started working after secondary school in 2007 in Nabugabo, and in 2009 he joined Kiseka Market as a spare-parts seller, where his business career developed. He is married.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical & Operational</span><br>Process documentation and workflow design</li>
+                            <li><span>Soft Skills</span><br>Leadership and Team coordination</li>
+                            <li><span>Industry Knowledge</span><br>Uganda labor export standards and international recruitment processes</li>
+                        </ul>
+                    </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Recruitment of over 500+ candidates</span><br>Led recruitment operations for 500+ candidates annually in collaboration with 50+ agents</li>
+                            <li><span>Placement Management</span><br>Improved placement turnaround time by 25% through better scheduling and document tracking</li>
+                            <li><span>Oversee coordination</span><br>Coordinates with overseas partners to match candidates skills with employer needs</li>
+                            <li><span>Oversee coordination</span><br>Coordinates with overseas partners to match candidates skills with employer needs</li>
+                        </ul>
+                    </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Uganda Certificate of Education</span><br>Kitara Junior Makerere</li>
+                            <li><span>Uganda Certificate of Education</span><br>Lubiri High School</li>
+                            <li><span>Uganda Advanced Certificate of Education</span><br>Strive High School(Kawala)</li>
+                            <li><span>Diploma in Business Management</span><br>Makerere University Business School</li>
+                            <li><span>A certificate in Food & Beverages</span><br>Dubai Municipality Community Institutes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services </h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Recruitment and Labour</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolor. Magni est adipisci assumenda magnam, id atque dolore deleniti impedit consequatur in at eos. Perspiciatis sunt velit culpa magni error!</p>
+                <a href="#" class="openModal">Learn More</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Recruitment and Labour</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolor. Magni est adipisci assumenda magnam, id atque dolore deleniti impedit consequatur in at eos. Perspiciatis sunt velit culpa magni error!</p>
+                <a href="#" class="openModal">Learn More</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Labour and Recruitment Services</h2>
+                <p>Recruiting skilled and unskilled workers for local and overseas jobs <br/>Matching employers with suitable candidates. <br/>Offering labour consultancy and documentation assistance.</p>
+                <a href="#services" class="openModal">Learn More</a>
+              </div>
+            </div>
+        </div>
+     </div>
+     <div class="modal" id="modal">
+        <div class="modal-inner">
+            <h2>Test Popup</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatem tempore aspernatur non perspiciatis enim! Quaerat enim, voluptatibus voluptatem</p>
+            <button id="closeModal" class="btn btn2">Close</button>
+        </div>
+     </div>
+
+     <!-- Portifolio -->
+<div id="portifolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/download (4).jfif">
+                <div class="layer">
+                <h3>Cleaner Contracts</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur perferendis a ab, nostrum iure, dolores.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/download (4).jfif">
+                <div class="layer">
+                <h3>Cleaner Contracts</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur perferendis a ab, nostrum iure, dolores.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/download (4).jfif">
+                <div class="layer">
+                <h3>Cleaner Contracts</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur perferendis a ab, nostrum iure, dolores.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+</div>
+</div>
+
+
+
+
+
+
+<!-- REPLACE any existing <section id="people"> blocks with this single block -->
+<section id="people" class="container-section">
+  <div class="container">
+    <h1 class="sub-title">Gallery</h1>
+
+    <div class="people-list">
+      <div class="people-item" data-cat="family">
+        <img src="images/WhatsApp Image 2025-10-24 at 11.06.59.jpeg" alt="Family">
+        <div class="people-layer">
+          <h3>Family</h3>
+          <p>Photos with family members.</p>
+          <a href="#" class="openPeople" data-cat="family" aria-label="Open Family gallery">
+            <i class="fa-solid fa-images"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="people-item" data-cat="friends">
+        <img src="images/WhatsApp Image 2025-10-24 at 11.06.58.jpeg" alt="Friends">
+        <div class="people-layer">
+          <h3>Friends</h3>
+          <p>Moments with friends.</p>
+          <a href="#" class="openPeople" data-cat="friends" aria-label="Open Friends gallery">
+            <i class="fa-solid fa-images"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="people-item" data-cat="mutuals">
+        <img src="images/WhatsApp Image 2025-10-24 at 11.07.02.jpeg" alt="Mutuals">
+        <div class="people-layer">
+          <h3>Mutuals</h3>
+          <p>Shared events and acquaintances.</p>
+          <a href="#" class="openPeople" data-cat="mutuals" aria-label="Open Mutuals gallery">
+            <i class="fa-solid fa-images"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#more-people" class="see-more-people">See all people galleries</a>
+  </div>
+</section>
+
+
+<div id="peopleGallery" class="people-gallery" aria-hidden="true">
+  <div class="people-gallery-inner" role="dialog" aria-modal="true" aria-labelledby="peopleGalleryTitle">
+    <button id="closePeopleGallery" class="people-gallery-close" aria-label="Close">&times;</button>
+
+    <div class="people-gallery-header">
+      <h2 id="peopleGalleryTitle">People Gallery</h2>
+      <nav class="people-gallery-tabs" role="tablist">
+        <button class="people-tab" data-cat="family" aria-selected="true">Family</button>
+        <button class="people-tab" data-cat="friends">Friends</button>
+        <button class="people-tab" data-cat="mutuals">Mutuals</button>
+      </nav>
+    </div>
+
+    <div class="people-gallery-stage">
+      <button class="pg-nav prev" aria-label="Previous">&larr;</button>
+      <div class="pg-image-wrap">
+        <img id="peopleGalleryImage" src="" alt="gallery image">
+        <p id="peopleGalleryCaption" class="people-gallery-caption"></p>
+      </div>
+      <button class="pg-nav next" aria-label="Next">&rarr;</button>
+    </div>
+
+    <div class="people-gallery-thumbs" id="peopleGalleryThumbs" aria-hidden="false"></div>
+
+    <div class="people-gallery-controls">
+      <a id="peopleGalleryView" class="people-gallery-view" href="#" target="_blank" rel="noopener">View full image</a>
+      <button id="peopleGalleryCloseBtn" class="people-gallery-close-btn">Close</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+        <!-- Contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>hebrainternational2000@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>0700721500</p>
+                        <div class="social-icons">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-twitter-square"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                        <a href="images/WEEKLY REPORT.docx" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ Mukiibi Muhammad 2025</p>
+            </div>
+        </div>
+        <script>
+    (function () {
+      const modal = document.getElementById('modal');
+      const closeBtn = document.getElementById('closeModal');
+      const triggers = document.querySelectorAll('.openModal');
+      if (!modal || !triggers.length) return;
+
+      function openModal(e) {
+        e && e.preventDefault();
+        modal.classList.add('active');
+        modal.setAttribute('aria-hidden', 'false');
+        // optionally set dynamic modal content here using e.currentTarget
+      }
+      function closeModal() {
+        modal.classList.remove('active');
+        modal.setAttribute('aria-hidden', 'true');
+      }
+
+      triggers.forEach(btn => btn.addEventListener('click', openModal));
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      window.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+      window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+    })();
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
+  
+<script>
+  (function () {
+  // create work pop markup if not already present
+  if (!document.getElementById('workPop')) {
+    const tpl = document.createElement('div');
+    tpl.id = 'workPop';
+    tpl.className = 'work-pop';
+    tpl.setAttribute('aria-hidden', 'true');
+    tpl.innerHTML = `
+      <div class="work-pop-inner" role="dialog" aria-modal="true" aria-labelledby="workPopTitle">
+        <button id="closeWorkPop" class="work-pop-close" aria-label="Close">&times;</button>
+
+        <img id="workPopImage" src="" alt="" style="display:none; max-width:100%; height:auto; margin:0 auto 16px; border-radius:6px;">
+
+        <h2 id="workPopTitle">Project Title</h2>
+        <h4 id="workPopSub" class="pop-subtitle">Short project tagline</h4>
+
+        <p id="workPopDesc">A short descriptive paragraph about this project. This area can include goals, outcomes and any important notes you want visitors to see.</p>
+
+        <ul class="pop-features" id="workPopFeatures" aria-hidden="true" style="display:none;">
+          <li><strong>Scope:</strong> Recruitment campaign</li>
+          <li><strong>Location:</strong> Uganda / Overseas</li>
+          <li><strong>Duration:</strong> 3 months</li>
+        </ul>
+
+        <div class="pop-meta" id="workPopMeta" style="display:none;">
+          <span class="meta-item">Client: ACME Ltd</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">Date: 2024</span>
+        </div>
+
+        <a id="workPopView" class="work-pop-view" href="#" target="_blank" rel="noopener" style="display:none;">View full image</a>
+
+        <button id="workPopAction" class="work-pop-action">Close</button>
+      </div>
+    `;
+    document.body.appendChild(tpl);
+  }
+
+  const workPop = document.getElementById('workPop');
+  const imgEl = document.getElementById('workPopImage');
+  const titleEl = document.getElementById('workPopTitle');
+  const subEl = document.getElementById('workPopSub');
+  const descEl = document.getElementById('workPopDesc');
+  const featuresEl = document.getElementById('workPopFeatures');
+  const metaEl = document.getElementById('workPopMeta');
+  const viewEl = document.getElementById('workPopView');
+  const closeBtn = document.getElementById('closeWorkPop');
+  const actionBtn = document.getElementById('workPopAction');
+
+  // select anchors inside each .work .layer (no extra markup needed)
+  const triggers = Array.from(document.querySelectorAll('.work .layer a'));
+
+  if (!workPop || triggers.length === 0) return;
+
+  function openPop({ img = '', title = '', sub = '', desc = '', features = [], meta = {} } = {}) {
+    // title / subtitle / description
+    titleEl.textContent = title || 'Project';
+    subEl.textContent = sub || '';
+    descEl.textContent = desc || '';
+
+    // features list (optional)
+    if (features && features.length) {
+      featuresEl.innerHTML = features.map(f => `<li>${f}</li>`).join('');
+      featuresEl.style.display = 'block';
+    } else {
+      featuresEl.style.display = 'none';
+    }
+
+    // meta (optional)
+    if (meta.client || meta.date) {
+      metaEl.innerHTML = `${meta.client ? `<span class="meta-item">Client: ${meta.client}</span>` : ''}${meta.client && meta.date ? '<span class="meta-item">•</span>' : ''}${meta.date ? `<span class="meta-item">Date: ${meta.date}</span>` : ''}`;
+      metaEl.style.display = 'block';
+    } else {
+      metaEl.style.display = 'none';
+    }
+
+    // image
+    if (img) {
+      imgEl.src = img;
+      imgEl.style.display = 'block';
+      viewEl.href = img;
+      viewEl.style.display = 'inline-block';
+    } else {
+      imgEl.style.display = 'none';
+      viewEl.style.display = 'none';
+    }
+
+    // hide title/sub if image-only view desired (keeps design flexible)
+    // here we keep both image and text visible
+
+    workPop.classList.add('open');
+    workPop.setAttribute('aria-hidden', 'false');
+  }
+
+  function closePop() {
+    workPop.classList.remove('open');
+    workPop.setAttribute('aria-hidden', 'true');
+    imgEl.src = '';
+  }
+
+  triggers.forEach(btn => {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      const parent = btn.closest('.work');
+      const workImg = parent?.querySelector('img');
+      const imgSrc = btn.dataset?.img || workImg?.getAttribute('src') || '';
+      const title = parent?.querySelector('h3')?.textContent || 'Project';
+      const desc = parent?.querySelector('p')?.textContent || '';
+      const sub = parent?.querySelector('h3')?.textContent || ''; // reuse h3 as subtitle if needed
+
+      // example features/meta - adjust as desired or pull from data- attributes
+      const features = [
+        'Scope: Recruitment & placement',
+        'Location: Local & overseas',
+        'Outcome: Matched 120 candidates'
+      ];
+      const meta = { client: 'Local', date: '2025' };
+
+      openPop({ img: imgSrc, title, sub, desc, features, meta });
+    });
+  });
+
+  closeBtn?.addEventListener('click', closePop);
+  actionBtn?.addEventListener('click', closePop);
+
+  window.addEventListener('click', function (e) {
+    if (e.target === workPop) closePop();
+  });
+
+  window.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePop();
+  });
+})();
+</script>
+
+
+
+
+
+<!-- place this script once, just before the closing </body'> -->
+<script>
+(function () {
+  if (window.__peopleGalleryInitialized) return;
+  window.__peopleGalleryInitialized = true;
+
+  const galleries = {
+    family: ['images/WhatsApp Image 2025-10-24 at 11.07.01.jpeg','images/WhatsApp Image 2025-10-24 at 11.06.59.jpeg','images/WhatsApp Image 2025-10-24 at 11.07.03.jpeg'],
+    friends: ['images/WhatsApp Image 2025-10-24 at 11.07.04 (2).jpeg','images/WhatsApp Image 2025-10-24 at 11.07.02.jpeg','images/WhatsApp Image 2025-10-24 at 11.07.01 (1).jpeg'],
+    mutuals: ['images/WhatsApp Image 2025-10-24 at 11.07.02.jpeg','images/WhatsApp Image 2025-10-24 at 11.07.03 (1).jpeg','images/WhatsApp Image 2025-10-24 at 11.07.08.jpeg']
+  };
+
+  const gallery = document.getElementById('peopleGallery');
+  if (!gallery) return;
+  const imgEl = document.getElementById('peopleGalleryImage');
+  const captionEl = document.getElementById('peopleGalleryCaption');
+  const thumbsEl = document.getElementById('peopleGalleryThumbs');
+  const viewEl = document.getElementById('peopleGalleryView');
+  const closeBtn = document.getElementById('closePeopleGallery');
+  const closeAction = document.getElementById('peopleGalleryCloseBtn');
+  const tabButtons = Array.from(document.querySelectorAll('.people-tab'));
+  const prevBtn = document.querySelector('.pg-nav.prev');
+  const nextBtn = document.querySelector('.pg-nav.next');
+
+  let currentCat = 'family';
+  let currentIndex = 0;
+
+  function renderThumbs(cat) {
+    thumbsEl.innerHTML = '';
+    const list = galleries[cat] || [];
+    list.forEach((src, i) => {
+      const b = document.createElement('button');
+      b.className = 'people-thumb';
+      b.dataset.index = i;
+      b.style.backgroundImage = `url("${src}")`;
+      b.title = `Image ${i+1}`;
+      b.addEventListener('click', () => showIndex(i));
+      thumbsEl.appendChild(b);
+    });
+    updateActiveThumb();
+  }
+
+  function showIndex(i) {
+    const list = galleries[currentCat] || [];
+    if (!list.length) return;
+    currentIndex = (i + list.length) % list.length;
+    const src = list[currentIndex];
+    imgEl.src = src;
+    viewEl.href = src;
+    captionEl.textContent = `${capitalize(currentCat)} — ${currentIndex + 1}/${list.length}`;
+    updateActiveThumb();
+    imgEl.classList.remove('img-fade'); void imgEl.offsetWidth; imgEl.classList.add('img-fade');
+  }
+
+  function updateActiveThumb() {
+    thumbsEl.querySelectorAll('.people-thumb').forEach((t, idx) => t.classList.toggle('active', idx === currentIndex));
+    const active = thumbsEl.querySelector('.people-thumb.active');
+    if (active) active.scrollIntoView({ inline: 'center', behavior: 'smooth' });
+  }
+
+  function openGallery(cat = 'family', start = 0) {
+    currentCat = (cat in galleries) ? cat : 'family';
+    renderThumbs(currentCat);
+    showIndex(start || 0);
+    tabButtons.forEach(b => b.setAttribute('aria-selected', b.dataset.cat === currentCat));
+    gallery.classList.add('open'); gallery.setAttribute('aria-hidden', 'false');
+    document.documentElement.style.overflow = 'hidden';
+  }
+
+  function closeGallery() {
+    gallery.classList.remove('open'); gallery.setAttribute('aria-hidden', 'true');
+    imgEl.src = ''; document.documentElement.style.overflow = '';
+  }
+
+  tabButtons.forEach(btn => btn.addEventListener('click', () => {
+    const cat = btn.dataset.cat;
+    if (cat === currentCat) return;
+    currentCat = cat; currentIndex = 0; renderThumbs(currentCat); showIndex(0);
+    tabButtons.forEach(b => b.setAttribute('aria-selected', b.dataset.cat === currentCat));
+  }));
+
+  prevBtn && prevBtn.addEventListener('click', () => { const list = galleries[currentCat] || []; showIndex((currentIndex - 1 + list.length) % list.length); });
+  nextBtn && nextBtn.addEventListener('click', () => { const list = galleries[currentCat] || []; showIndex((currentIndex + 1) % list.length); });
+
+  document.querySelectorAll('.openPeople').forEach(btn => btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    const cat = btn.dataset.cat || btn.closest('.people-item')?.dataset?.cat || 'family';
+    openGallery(cat, 0);
+  }));
+
+  closeBtn && closeBtn.addEventListener('click', closeGallery);
+  closeAction && closeAction.addEventListener('click', closeGallery);
+  gallery.addEventListener('click', (e) => { if (e.target === gallery) closeGallery(); });
+  window.addEventListener('keydown', (e) => {
+    if (!gallery.classList.contains('open')) return;
+    if (e.key === 'Escape') closeGallery();
+    if (e.key === 'ArrowLeft') prevBtn && prevBtn.click();
+    if (e.key === 'ArrowRight') nextBtn && nextBtn.click();
+  });
+
+  function capitalize(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+  window.openPeopleGallery = openGallery;
+})();
+</script>
+
+
+
+
+
+
+</body>
+</html>
